@@ -9,19 +9,19 @@ This script reads and plots **Radial Distribution Function (RDF)** data for xeno
 - `RDFs_plot.py` → This script (rename accordingly).  
 
 ## 🚀 Usage  
-### **1. Install Dependencies**  
+# **1. Install Dependencies**  
 Ensure you have the required Python libraries installed:  
 ```bash
 pip install pandas matplotlib
 ```
 
-### **2. Run the Script
+# **2. Run the Script
 Execute the script in a Python environment:
 ```bash
 python RDFs_plot.py
 ```
 
-### **3. Output
+# **3. Output
 The script reads RDFs_A-X.txt, extracts RDF functions obtained for A as the reference atom reatively to B, C, D and E, and plots them.
 The plot is saved as RDFs_A-X.png.
 
@@ -39,7 +39,7 @@ Ensure RDFs_A-X.txt follows the correct format (whitespace-separated).
 Modify sep=r'\s+' in pd.read_csv() if needed for different delimiters.
 Adjust plot limits (plt.xlim(), plt.ylim()) as needed.
 
-### **4. Multiple plots
+# **4. Multiple plots
 For multiple plots on the same .png file run: 
 ```bash
 python Multiple_RDF_plots.py
