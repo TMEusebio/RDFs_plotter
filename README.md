@@ -9,7 +9,7 @@ This script reads and plots **Radial Distribution Function (RDF)** data for xeno
 - `RDFs_plot.py` → This script (rename accordingly).  
 
 ## 🚀 Usage  
-# 1. Install Dependencies**  
+# **1. Install Dependencies**  
 Ensure you have the required Python libraries installed:  
 ```bash
 pip install pandas matplotlib
